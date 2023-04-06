@@ -1,7 +1,7 @@
 // import 'regenerator-runtime';
 
-import css from '.style/style.css';
-import css from '.style/style.scss';
+import css from './style/style.css';
+import css from './style/style.scss';
 // Import our custom CSS
 // import '../src/style/style.scss';
 // // Import all of Bootstrap's JS
