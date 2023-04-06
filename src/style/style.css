@@ -9,3 +9,28 @@ body.background-color {
 button.button-red {
   background-color: red;
 }
+
+nav h1.navbar-brand {
+  font-size: 40px;
+}
+
+nav.navbar {
+  background-color: rgb(179, 0, 207);
+}
+
+.card .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card .card-body {
+  height: 100px;
+}
+
+.card .card-footer {
+  background: none;
+  border: none;
+  padding-bottom: 10px;
+  display: flex;
+  align-self: center;
+}
