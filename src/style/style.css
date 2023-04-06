@@ -1,4 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body.background-color {
+  background-color: rgb(220, 0, 99);
+}
 
-body{
-      background-color: rgb(231, 14, 14);
-  }
+button.button-red {
+  background-color: red;
+}

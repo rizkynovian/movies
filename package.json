@@ -15,7 +15,9 @@
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.2",
     "bootstrap": "^5.2.3",
+    "bootstrap-sass": "^3.4.3",
     "css-loader": "^6.7.3",
+    "node-sass": "^8.0.0",
     "postcss-loader": "^7.2.4",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
@@ -25,7 +27,17 @@
     "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.7"
+    "@popperjs/core": "^2.11.7",
+    "bootstrap-loader": "^4.0.4",
+    "html-webpack-plugin": "^5.5.0"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkynovian/movies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rizkynovian/movies/issues"
+  },
+  "homepage": "https://github.com/rizkynovian/movies#readme"
 }
