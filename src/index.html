@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Anda dapat mencari indormasi Film kesayanngan anda disini">
+    <title>Search Movie Kiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
 </head>
 <body class="background-color">
     <header>
-        <nav class="navbar">
-            <h1 class="navbar-brand mb-0">Movie</h1>
-          </nav>
+        <app-bar></app-bar>
     </header>
 
     <main>
@@ -19,7 +21,7 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control input-keyword" placeholder="Search Movie...">
                         <div class="input-group-append text-center pt-5 mt-4">
-                            <button class="btn search-button button-red" type="button" id="button-addon2">Search</button>
+                            <button class="btn search-button bg-primary" type="button" id="button-addon2">Search</button>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="movieDetailModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="movieDetailModalLabel">Detail Information Movie</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>

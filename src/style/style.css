@@ -2,20 +2,22 @@
   margin: 0px;
   padding: 0px;
 }
+
+app-bar nav h1.title{
+  font-family: 'Fruktur', cursive;
+  color: white;
+}
+
 body.background-color {
-  background-color: rgb(220, 0, 99);
+  background-color: rgb(255, 255, 255);
 }
 
 button.button-red {
-  background-color: red;
+  background-color: rgb(74, 144, 190);
 }
 
 nav h1.navbar-brand {
   font-size: 40px;
-}
-
-nav.navbar {
-  background-color: rgb(179, 0, 207);
 }
 
 .card .card-img-top {
